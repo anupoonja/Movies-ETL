@@ -25,5 +25,7 @@ These are the observations from the Movies ETL analysis :
 ### 3) Load
 * Database engine is created and the transformed movies_df and ratings.cvs are loaded into the PostgreSQL database.
 
-## Summary
+## Summary:
+* Very messy data is read, transformed and loaded into the SQL database.
+* A pipeline is created that will read new and extract new data, transform and load ino existing PostGresSQL database.
 
